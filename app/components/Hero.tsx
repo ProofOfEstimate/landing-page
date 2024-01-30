@@ -1,17 +1,18 @@
-import React from 'react';
+import React from "react";
 
 const Hero: React.FC = () => {
   return (
     <section id="hero" className="d-flex align-items-center">
-      <div className="container" data-aos="zoom-out" data-aos-delay="100">
-        <h1>Welcome to <span>BizLand</span></h1>
-        <h2>We are a team of talented designers making websites with Bootstrap</h2>
-        <div className="d-flex">
-          <a href="#about" className="btn-get-started scrollto">Get Started</a>
-          <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" className="glightbox btn-watch-video">
-            <i className="bi bi-play-circle"></i><span>Watch Video</span>
-          </a>
-        </div>
+      <div className="container text-center">
+        <h1>
+          Prediction <span>Made Simple</span> <br />
+          for Future Events
+        </h1>
+        <h2>
+          Share your insights and predictions on Future events with a global
+          Audience <b /> Get points for Accurate prediction and climb up the
+          leaderboard
+        </h2>
       </div>
     </section>
   );
