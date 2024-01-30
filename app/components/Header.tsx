@@ -5,7 +5,7 @@ const Header: React.FC = () => {
     <header id="header" className="d-flex align-items-center fixed-top">
       <div className="container d-flex align-items-center justify-content-between">
         <h1 className="logo">
-          <a href="index.html">
+          <a href="/">
             POE<span>.</span>
           </a>
         </h1>
@@ -20,11 +20,11 @@ const Header: React.FC = () => {
               </a>
             </li>
             <li>
-              <a className="nav-link scrollto" href="#about">
+              <a className="nav-link scrollto" href="#featured-services">
                 Features
               </a>
             </li>
-            <li>
+            {/* <li>
               <a className="nav-link scrollto" href="#services">
                 Community
               </a>
@@ -34,10 +34,10 @@ const Header: React.FC = () => {
               <a className="nav-link scrollto" href="#contact">
                 About
               </a>
-            </li>
+            </li> */}
             <li>
-              <button type="button" className="btn btn-warning" style={{background: "deeppink"}}>
-                Use POE
+              <button type="button" className="btn btn-warning" style={{background: "deeppink", color: "whitesmoke"}}>
+              Lauch App
               </button>
             </li>
           </ul>

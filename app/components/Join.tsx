@@ -8,14 +8,14 @@ const Join: React.FC = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-8">
-            <h4 style={{color: "whitesmoke"}}>Looking to collaborate?</h4>
+            <h4 style={{color: "whitesmoke"}}>Discover Tomorrow, Today</h4>
             <br />
-            <p style={{color: "whitesmoke"}}>Join our growing community</p>
+            <p style={{color: "whitesmoke"}}>Launch the Future!</p>
           </div>
         </div>
       </div>
       <div className="text-left">
-        <a className="joinbut">Use POE</a>
+        <a className="joinbut">Lauch App</a>
       </div>
     </section>
   );

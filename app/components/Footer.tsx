@@ -12,25 +12,25 @@ const Footer: React.FC = () => {
               <h3>
                 POE<span>.</span>
               </h3>
-              <p>
+              {/* <p>
                 <strong>Email:</strong> poe@example.com
                 <br />
-              </p>
+              </p> */}
             </div>
 
             <div className="col-lg-4 col-md-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
                 <li>
-                  <i className="bx bx-chevron-right"></i> <a href="#">Home</a>
+                  <i className="bx bx-chevron-right"></i> <a href="/">Home</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">About us</a>
+                  <a href="/">About us</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">community</a>
+                  <a href="https://twitter.com/proofofestimate">community</a>
                 </li>
               </ul>
             </div>
@@ -38,10 +38,10 @@ const Footer: React.FC = () => {
             <div className="col-lg-4 col-md-6 footer-links">
               <h4>Our Social Networks</h4>
               <div className="social-links mt-3">
-                <a href="#" className="twitter">
-                  <i className="bx bxl-twitter"></i>
+                <a href="https://twitter.com/proofofestimate" target="_blank" className="twitter">
+                  <i className="bi bi-twitter-x"></i>
                 </a>
-                <a href="#" className="facebook">
+                {/* <a href="#" className="facebook">
                   <i className="bx bxl-facebook"></i>
                 </a>
                 <a href="#" className="instagram">
@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
                 </a>
                 <a href="#" className="linkedin">
                   <i className="bx bxl-linkedin"></i>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
