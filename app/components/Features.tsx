@@ -8,25 +8,25 @@ const Features: React.FC = () => {
         <div className="row">
           <div className="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
             <div className="icon-box">
-              <div className="icon"><i className="bx bxl-dribbble"></i></div>
-              <h4 className="title"><a href="">Lorem Ipsum</a></h4>
-              <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <div className="icon"><i className="bx bx-coin"></i></div>
+              <h4 className="title"><a href="">Submit Estimate</a></h4>
+              <p className="description">Share your insights and predictions on future events with a global audience.</p>
             </div>
           </div>
 
           <div className="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
             <div className="icon-box">
-              <div className="icon"><i className="bx bx-file"></i></div>
-              <h4 className="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p className="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <div className="icon"><i className="bx bx-money"></i></div>
+              <h4 className="title"><a href="">Earn Point</a></h4>
+              <p className="description">Get points for accurate predictions and climb up the leaderboard.</p>
             </div>
           </div>
 
           <div className="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
             <div className="icon-box">
               <div className="icon"><i className="bx bx-tachometer"></i></div>
-              <h4 className="title"><a href="">Magni Dolores</a></h4>
-              <p className="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <h4 className="title"><a href="">Build Reputation</a></h4>
+              <p className="description">Establish yourself as a foresightful predictor and gain recognition.</p>
             </div>
           </div>
 

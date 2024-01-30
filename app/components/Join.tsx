@@ -8,9 +8,9 @@ const Join: React.FC = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-8">
-            <h4>Looking to collaborate?</h4>
+            <h4 style={{color: "whitesmoke"}}>Looking to collaborate?</h4>
             <br />
-            <p>Join our growing community</p>
+            <p style={{color: "whitesmoke"}}>Join our growing community</p>
           </div>
         </div>
       </div>

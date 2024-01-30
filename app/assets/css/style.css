@@ -1,6 +1,6 @@
 
 /*--------------------------------------------------------------
-# General
+# General hero-bg
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
@@ -406,14 +406,14 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top left;
+  background: url("../img/hero-bg.png") top left;
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.6);
+  /* background: rgba(255, 255, 255, 0.6); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -706,7 +706,9 @@ section {
 
 #join {
   padding: 50px 0;
-  background: rgb(246, 208, 246);
+  background: url("../img/join.png") top left;
+  background-size: cover;
+  position: relative;
   text-align: center;
   font-size: 15px;
   height: 60vh;
@@ -807,7 +809,10 @@ section {
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
-  background: purple;
+  background: url("../img/footer-bg.png") top left;
+  background-size: cover;
+  position: relative;
+
 }
 
 #footer .footer-newsletter {
@@ -863,7 +868,9 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: purple;
+  background: url("../img/footer-bg.png") top left;
+  background-size: cover;
+  position: relative;
 }
 
 #footer .footer-top .footer-contact {
