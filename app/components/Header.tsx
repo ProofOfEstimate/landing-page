@@ -36,9 +36,15 @@ const Header: React.FC = () => {
               </a>
             </li> */}
             <li>
-              <button type="button" className="btn btn-warning" style={{background: "deeppink", color: "whitesmoke"}}>
-              Lauch App
-              </button>
+              <a href="https://poe-solana-beta.vercel.app/" target="_blank">
+                <button
+                  type="button"
+                  className="btn btn-warning"
+                  style={{ background: "deeppink", color: "whitesmoke" }}
+                >
+                  Launch App
+                </button>
+              </a>
             </li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle"></i>
@@ -46,7 +52,6 @@ const Header: React.FC = () => {
         {/* .navbar */}
       </div>
     </header>
-    
   );
 };
 

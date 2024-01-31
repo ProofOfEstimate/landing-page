@@ -15,7 +15,8 @@ const Join: React.FC = () => {
         </div>
       </div>
       <div className="text-left">
-        <a className="joinbut">Lauch App</a>
+
+        <a href="https://poe-solana-beta.vercel.app/" target="_blank" className="joinbut">Lauch App</a>
       </div>
     </section>
   );
